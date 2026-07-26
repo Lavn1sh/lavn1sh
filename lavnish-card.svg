@@ -1,0 +1,133 @@
+<svg viewBox="0 0 680 510" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace">
+<style>
+:root { --bg: #ffffff; --bg1: #f6f8fa; --border: #d0d7de; --text: #1f2328; --muted: #656d76; --tag-bg: #f6f8fa; --tag-border: #d0d7de; --link: #656d76; }
+@media (prefers-color-scheme: dark) {
+:root { --bg: #0d1117; --bg1: #161b22; --border: #30363d; --text: #e6edf3; --muted: #8b949e; --tag-bg: #161b22; --tag-border: #30363d; --link: #8b949e; }
+}
+a { text-decoration: none; }
+</style>
+
+<rect width="680" height="510" fill="var(--bg)"/>
+
+<text x="32" y="24" font-size="9" fill="var(--muted)" letter-spacing="2" font-weight="500">MY WORK</text>
+
+<!-- project grid -->
+<rect x="32" y="36" width="616" height="260" fill="none" stroke="var(--border)" stroke-width="0.5"/>
+<line x1="340" y1="36" x2="340" y2="296" stroke="var(--border)" stroke-width="0.5"/>
+<line x1="32" y1="166" x2="648" y2="166" stroke="var(--border)" stroke-width="0.5"/>
+
+<!-- costwatcher -->
+<text x="48" y="62" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">costwatcher</text>
+<text x="48" y="80" font-size="10" fill="var(--muted)">Self-hosted proxy + dashboard attributing</text>
+<text x="48" y="94" font-size="10" fill="var(--muted)">OpenAI, Anthropic, Gemini usage by team.</text>
+<text x="48" y="108" font-size="10" fill="var(--muted)">Multi-tenant RBAC with anomaly alerting.</text>
+<rect x="48" y="122" width="58" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="77" y="134" font-size="9" fill="var(--muted)" text-anchor="middle">node.js</text>
+<rect x="112" y="122" width="58" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="141" y="134" font-size="9" fill="var(--muted)" text-anchor="middle">express</text>
+<rect x="176" y="122" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="211" y="134" font-size="9" fill="var(--muted)" text-anchor="middle">postgresql</text>
+<rect x="252" y="122" width="44" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="274" y="134" font-size="9" fill="var(--muted)" text-anchor="middle">redis</text>
+
+<!-- cdfs -->
+<text x="356" y="62" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">cdfs — distributed fs</text>
+<text x="356" y="80" font-size="10" fill="var(--muted)">Master-worker DFS with 16MB chunking and</text>
+<text x="356" y="94" font-size="10" fill="var(--muted)">triple replication. Multithreaded streaming</text>
+<text x="356" y="108" font-size="10" fill="var(--muted)">I/O, WAL + checkpointing, self-healing repl.</text>
+<rect x="356" y="122" width="34" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="373" y="134" font-size="9" fill="var(--muted)" text-anchor="middle">c</text>
+<rect x="396" y="122" width="44" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="418" y="134" font-size="9" fill="var(--muted)" text-anchor="middle">posix</text>
+
+<!-- flowscale -->
+<text x="48" y="192" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">flowscale</text>
+<text x="48" y="210" font-size="10" fill="var(--muted)">Distributed workflow engine in Go with</text>
+<text x="48" y="224" font-size="10" fill="var(--muted)">durable, crash-safe state in Postgres —</text>
+<text x="48" y="238" font-size="10" fill="var(--muted)">retry policies, DLQs, saga compensation.</text>
+<rect x="48" y="252" width="34" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="65" y="264" font-size="9" fill="var(--muted)" text-anchor="middle">go</text>
+<rect x="88" y="252" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="123" y="264" font-size="9" fill="var(--muted)" text-anchor="middle">postgresql</text>
+<rect x="164" y="252" width="62" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="195" y="264" font-size="9" fill="var(--muted)" text-anchor="middle">rabbitmq</text>
+<rect x="232" y="252" width="50" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="257" y="264" font-size="9" fill="var(--muted)" text-anchor="middle">docker</text>
+
+<!-- lpsh -->
+<text x="356" y="192" font-size="11.5" font-weight="500" fill="var(--text)" letter-spacing="0.3">lpsh — unix shell</text>
+<text x="356" y="210" font-size="10" fill="var(--muted)">Unix shell in C with a real lexer → parser →</text>
+<text x="356" y="224" font-size="10" fill="var(--muted)">executor pipeline. Pipes, redirection, job</text>
+<text x="356" y="238" font-size="10" fill="var(--muted)">control, aliases, history, git-aware prompt.</text>
+<rect x="356" y="252" width="34" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="373" y="264" font-size="9" fill="var(--muted)" text-anchor="middle">c</text>
+<rect x="396" y="252" width="62" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="427" y="264" font-size="9" fill="var(--muted)" text-anchor="middle">readline</text>
+
+<line x1="32" y1="314" x2="648" y2="314" stroke="var(--border)" stroke-width="0.5"/>
+
+<!-- open source -->
+<text x="32" y="334" font-size="9" fill="var(--muted)" letter-spacing="2" font-weight="500">OPEN SOURCE</text>
+
+<text x="32" y="354" font-size="11" font-weight="500" fill="var(--text)">blender — color filter sculpting tool</text>
+<text x="648" y="354" font-size="10" fill="var(--muted)" text-anchor="end">c++ · python</text>
+<text x="32" y="368" font-size="10" fill="var(--muted)">Added keybindings, refined UI behavior, and improved workflow efficiency + docs.</text>
+
+<line x1="32" y1="384" x2="648" y2="384" stroke="var(--border)" stroke-width="0.5"/>
+
+<!-- stack -->
+<text x="32" y="404" font-size="9" fill="var(--muted)" letter-spacing="2" font-weight="500">STACK</text>
+
+<!-- row 1 -->
+<rect x="32" y="414" width="34" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="49" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">go</text>
+<rect x="72" y="414" width="40" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="92" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">rust</text>
+<rect x="118" y="414" width="34" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="135" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">c</text>
+<rect x="158" y="414" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="177" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">c++</text>
+<rect x="202" y="414" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="237" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">typescript</text>
+<rect x="278" y="414" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="313" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">javascript</text>
+<rect x="354" y="414" width="46" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="377" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">python</text>
+<rect x="406" y="414" width="40" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="426" y="426" font-size="9" fill="var(--muted)" text-anchor="middle">bash</text>
+
+<!-- row 2 -->
+<rect x="32" y="436" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="51" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">lua</text>
+<rect x="76" y="436" width="46" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="99" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">docker</text>
+<rect x="128" y="436" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="163" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">kubernetes</text>
+<rect x="204" y="436" width="70" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="239" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">postgresql</text>
+<rect x="280" y="436" width="54" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="307" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">mongodb</text>
+<rect x="340" y="436" width="42" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="361" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">redis</text>
+<rect x="388" y="436" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="407" y="448" font-size="9" fill="var(--muted)" text-anchor="middle">bun</text>
+
+<!-- row 3 -->
+<rect x="32" y="458" width="42" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="53" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">react</text>
+<rect x="80" y="458" width="46" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="103" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">next.js</text>
+<rect x="132" y="458" width="40" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="152" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">htmx</text>
+<rect x="178" y="458" width="54" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="205" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">node.js</text>
+<rect x="238" y="458" width="58" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="267" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">tanstack</text>
+<rect x="302" y="458" width="58" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="331" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">supabase</text>
+<rect x="366" y="458" width="38" height="16" rx="2" fill="var(--tag-bg)" stroke="var(--tag-border)" stroke-width="0.5"/>
+<text x="385" y="470" font-size="9" fill="var(--muted)" text-anchor="middle">git</text>
+
+<line x1="32" y1="488" x2="648" y2="488" stroke="var(--border)" stroke-width="0.5"/>
+
+</svg>
